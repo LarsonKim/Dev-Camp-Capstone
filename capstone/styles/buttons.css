@@ -1,0 +1,55 @@
+/* Right Nav Bar Buttons */
+.btn-right {
+    background-color: rgb(59, 58, 58);
+    color: #ffffff;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Feature Section Buttons*/
+.features-section > .column-wrapper > .column-left > .btn-wrapper {
+    display: grid;
+    grid-template-columns: .7fr .6fr .25fr;
+    grid-gap: 15px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.btn-signupforfree {
+    background: #51c074;
+    color: #000;
+    border-radius: 3px;
+    padding: 10px 10px;
+}
+
+.btn-learnmore {
+    background-color: black;
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 10px 10px;
+} 
+
+/* Button Footer */
+.btn-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-content: center;
+}
+
+.btn-footer > .box{
+    padding: 15px 25px;
+    background-color:rgb(59, 58, 58);
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffffff;
+    border: .5px solid #ffffff;
+    text-align: center;
+}
+
+.btn-footer > .box > .btn-links {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+ }

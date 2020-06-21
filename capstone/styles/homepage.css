@@ -1,0 +1,26 @@
+/* Features section styles */
+.features-section {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(59, 58, 58), black);
+}
+
+.features-section > .column-wrapper {
+   display: grid;
+   grid-template-columns: 1.5fr 1fr;
+   grid-column-gap: 75px;
+   margin: 25px 5px 30px 30px;
+}
+
+.features-section > .column-wrapper > .column-left {
+    text-align: left;
+    color: grey;
+    font-size: 2em;
+    font-weight: lighter;
+    line-height: 1.25em;
+}
+
+.column-right {
+    padding-left: 20px;
+}

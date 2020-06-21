@@ -1,0 +1,53 @@
+/*Common nav styles*/
+.navigation-wrapper {
+    display: grid;
+    grid-template-columns: 1.25fr 2fr 2fr;
+    align-items: center;
+    background-color: black;
+  }
+
+/*Links Top Styles */
+
+.links-top-left {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+.explore {
+    text-align: left;
+    font-size: .85em;
+    color: rgb(242, 216, 0);
+}
+
+.nav-top-left {
+    display: grid; 
+    text-align: left;
+    grid-template-columns: auto auto auto auto auto;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.nav-top-left a{
+    text-decoration: none;
+    color: #ffffff
+}
+
+.spark {
+    font-weight: 200;
+    margin-left: 20px;
+}
+
+/* Top Right Styles Create Search Login Sign Up*/
+.top-right  {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5px 5px 5px 50px;
+}
+
+.top-right > :nth-child(2){
+    color: grey;
+}
+
+
+
